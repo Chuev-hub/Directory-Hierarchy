@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6S5SpODP/eiu0/F2n0Y1OgbXNAeru5f/5Pv2DN7SjwAsPft7ExNtCLIYlvdpFM3NoKq9vIAB2VNohmCKxP+GUg==",
+  "dgSpecHash": "M48rKPPU1vV3b1kXXr/zYv+4ZpsLQupvI72cCMUtSsDQWSpy8YdCN4qDGDdxWfHV5cQ2ZdKBWoVbDqVgGUjX+A==",
   "success": true,
   "projectFilePath": "D:\\KrakenRepos\\Directory-Hierarchy\\DirAPIController\\DirAPIController\\DirAPIController.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\chuev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\chuev\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\chuev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

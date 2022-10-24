@@ -1,8 +1,10 @@
-
+using Dir.BLL.DTO;
+using Dir.BLL.Services;
 using Dir.DAL.Context;
 using Dir.DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +19,7 @@ builder.Services.AddDbContext<DirectoryContext>(options =>
            options.UseSqlServer(
    builder.Configuration.GetConnectionString("Default")
            ));
+builder.Services.AddScoped(typeof(IService<FolderDTO, Folder>), typeof(FolderService));
 var app = builder.Build();
 
 

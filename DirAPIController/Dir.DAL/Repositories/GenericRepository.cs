@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace Dir.DAL.Repositories
 {
@@ -24,7 +25,7 @@ namespace Dir.DAL.Repositories
             return entity;
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAll()
         {
             return table.AsNoTracking();
         }
