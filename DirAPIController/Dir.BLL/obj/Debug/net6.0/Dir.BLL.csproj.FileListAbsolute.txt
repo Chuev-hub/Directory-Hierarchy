@@ -1,0 +1,15 @@
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\bin\Debug\net6.0\Dir.BLL.deps.json
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\bin\Debug\net6.0\Dir.BLL.dll
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\bin\Debug\net6.0\Dir.BLL.pdb
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\bin\Debug\net6.0\Dir.DAL.dll
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\bin\Debug\net6.0\Dir.DAL.pdb
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.csproj.AssemblyReference.cache
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.AssemblyInfoInputs.cache
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.AssemblyInfo.cs
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.csproj.CoreCompileInputs.cache
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.csproj.CopyComplete
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.dll
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\refint\Dir.BLL.dll
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\Dir.BLL.pdb
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.BLL\obj\Debug\net6.0\ref\Dir.BLL.dll
