@@ -23,7 +23,7 @@ function App() {
             return (
               <Directory
                 key={Date().toLocaleString()}
-               
+                {...props}
               />
             );
           }}/>
