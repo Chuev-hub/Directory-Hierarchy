@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Directory-Hierarchy/static/css/main.abf55154.css",
-    "main.js": "/Directory-Hierarchy/static/js/main.b16657a2.js",
-    "index.html": "/Directory-Hierarchy/index.html",
-    "main.abf55154.css.map": "/Directory-Hierarchy/static/css/main.abf55154.css.map",
-    "main.b16657a2.js.map": "/Directory-Hierarchy/static/js/main.b16657a2.js.map"
+    "main.css": "/static/css/main.abf55154.css",
+    "main.js": "/static/js/main.b16657a2.js",
+    "index.html": "/index.html",
+    "main.abf55154.css.map": "/static/css/main.abf55154.css.map",
+    "main.b16657a2.js.map": "/static/js/main.b16657a2.js.map"
   },
   "entrypoints": [
     "static/css/main.abf55154.css",
