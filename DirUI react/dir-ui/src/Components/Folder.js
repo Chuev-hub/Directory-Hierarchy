@@ -12,7 +12,9 @@ class Folder extends React.Component {
   render() {
     return (
     
-            <Link  style={{
+            <Link 
+            
+            style={{
            
             fontSize:  "30px",
             color: "white",

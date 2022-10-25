@@ -38,7 +38,7 @@ class Directory extends React.Component {
           className="d-flex justify-content-center"
           style={{  margin: "100px"  }}
         >
-            <Link to={this.state.parent!=null?"/dir/"+this.state.parent:"/"} className="btn btn-light" style={{ width: "70px" ,alignSelf:"start",marginRight:"15px"}}>Prev</Link>
+            <Link  to={this.state.parent!=null?"/dir/"+this.state.parent:"/"} className="btn btn-light" style={{ width: "70px" ,alignSelf:"start",marginRight:"15px"}}>Prev</Link>
           <div style={{backgroundColor:"rgba(0,0,0,0.1)"}} className="d-flex flex-column">
             
             <div style={{ fontSize: "40px" ,color:"cyan"}}>{this.state.path}</div>

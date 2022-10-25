@@ -26,7 +26,7 @@ class Home extends React.Component {
           style={{ marginTop: "10%" }}
         >
           <div className="d-flex flex-column">
-            <div style={{ fontSize: "40px" }}>Get started!</div>
+            <div style={{ color:"cyan", fontSize: "40px" }}>Get started!</div>
             <Link  style={{
            
            "font-size":  "30px",

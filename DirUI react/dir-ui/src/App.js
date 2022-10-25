@@ -16,7 +16,17 @@ function App() {
          <div className="App">
          <Switch>
            <Route exact path="/" component={Home}/>
-           <Route   path="/dir/:id" component={Directory}/>
+           <Route   path="/dir/:id"
+           
+           render={props => {
+            
+            return (
+              <Directory
+                key={Date().toLocaleString()}
+               
+              />
+            );
+          }}/>
            <Route   path="/manage" component={Manage}/>
            <Route render={()=><div>Page not found</div>} />
           </Switch>
