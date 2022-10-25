@@ -1,0 +1,12 @@
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\bin\Release\net6.0\Dir.DAL.deps.json
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\bin\Release\net6.0\Dir.DAL.dll
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\bin\Release\net6.0\Dir.DAL.pdb
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\Dir.DAL.csproj.AssemblyReference.cache
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\Dir.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\Dir.DAL.AssemblyInfoInputs.cache
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\Dir.DAL.AssemblyInfo.cs
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\Dir.DAL.csproj.CoreCompileInputs.cache
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\Dir.DAL.dll
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\refint\Dir.DAL.dll
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\Dir.DAL.pdb
+D:\KrakenRepos\Directory-Hierarchy\DirAPIController\Dir.DAL\obj\Release\net6.0\ref\Dir.DAL.dll
