@@ -30,7 +30,11 @@ namespace Dir.DAL.Repositories
             return table.AsNoTracking();
         }
 
-        public async Task RemoveAsync(T entity)
+        public async Task RemoveAsync()
+        {
+            await Task.Run(() => table.RemoveRange(table.ToList()));
+        }
+        public async Task RemoveAtAsync(T entity)
         {
             await Task.Run(() => table.Remove(entity));
         }
@@ -51,6 +55,11 @@ namespace Dir.DAL.Repositories
             {
 
             }
+        }
+
+        public async Task AddRangeAsync(IEnumerable<T> entiies)
+        {
+            await table.AddRangeAsync(entiies);
         }
     }
 }

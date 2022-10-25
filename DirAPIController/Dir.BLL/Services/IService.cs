@@ -11,7 +11,9 @@ namespace Dir.BLL.Services
         public Task<T> Get(int id);
         public Task<IEnumerable<T>> GetAll();
         public Task AddAsync(T entity);
-        public Task RemoveAsync(int id);
+        public Task AddRangeAsync(IEnumerable<T> entity);
+        public Task RemoveAsync();
+        public Task RemoveAtAsync(int id);
         public Task UpdateAsync(T entity);
     }
 }

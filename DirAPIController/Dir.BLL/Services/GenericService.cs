@@ -28,15 +28,28 @@ namespace Dir.BLL.Services
 
         public async Task<IEnumerable<T>> GetAll() => Mapper.Map<IEnumerable<T1>, IEnumerable<T>>(await Repository.GetAll());
 
-        public async Task RemoveAsync(int id)
+        public async Task RemoveAsync()
         {
-            await Repository.RemoveAsync(await Repository.GetAsync(id));
+            await Repository.RemoveAsync();
             await Repository.SaveChanges();
         }
 
         public async Task UpdateAsync(T entity)
         {
             await Repository.UpdateAsync(Mapper.Map<T, T1>(entity));
+            await Repository.SaveChanges();
+        }
+
+        public async Task RemoveAtAsync(int id)
+        {
+            await Repository.RemoveAtAsync(await Repository.GetAsync(id));
+            await Repository.SaveChanges();
+        }
+
+        public async Task AddRangeAsync(IEnumerable<T> entities)
+        {
+            var list = Mapper.Map<IEnumerable<T>, IEnumerable<T1>>(entities);
+            await Repository.AddRangeAsync(list);
             await Repository.SaveChanges();
         }
     }

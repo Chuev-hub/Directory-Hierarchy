@@ -32,6 +32,7 @@ namespace Dir.DAL.Context
                     .IsRequired(false)
                     .OnDelete(DeleteBehavior.Restrict);
             });
+           
             base.OnModelCreating(modelBuilder);
         }
        

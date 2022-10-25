@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M48rKPPU1vV3b1kXXr/zYv+4ZpsLQupvI72cCMUtSsDQWSpy8YdCN4qDGDdxWfHV5cQ2ZdKBWoVbDqVgGUjX+A==",
+  "dgSpecHash": "w4+Wu9IhD0bDIeB0iIh7zqGhD9v4gXnHzx88Vy/tF/jdPdd0UNh0Ejj9LR9Vw8OgSormD8N/oQ2mfeqtLx8U8A==",
   "success": true,
   "projectFilePath": "D:\\KrakenRepos\\Directory-Hierarchy\\DirAPIController\\DirAPIController\\DirAPIController.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\chuev\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\chuev\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\chuev\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
