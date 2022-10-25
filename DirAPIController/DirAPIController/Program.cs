@@ -19,6 +19,11 @@ builder.Services.AddDbContext<DirectoryContext>(options =>
            options.UseSqlServer(
    builder.Configuration.GetConnectionString("Default")
            ));
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
 builder.Services.AddScoped(typeof(IService<FolderDTO, Folder>), typeof(FolderService));
 var app = builder.Build();
 
@@ -35,5 +40,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 app.Run();

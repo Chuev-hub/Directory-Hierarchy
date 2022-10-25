@@ -1,16 +1,19 @@
+using AutoMapper;
 using Dir.BLL.DTO;
 using Dir.BLL.Services;
 using Dir.DAL.Context;
 using Dir.DAL.Repositories;
-using Microsoft.AspNetCore.Cors;
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using Newtonsoft.Json;
 
 namespace DirAPIController.Controllers
 {
     [ApiController]
     [Route("[controller]/[action]")]
+    [EnableCors("AllowOrigin")]
     public class FolderController : Controller
     {
         private readonly IService<FolderDTO,Folder> folderService;
@@ -48,19 +51,36 @@ namespace DirAPIController.Controllers
         public async Task<IActionResult> GetChildren(int id)
         {
             var list = await folderService.GetAll();
-           
+
             return Json(new
             {
                 list = list.Where(x => x.ParentId == id),
                 path = await GetPath(await folderService.Get(id))
             });
         }
+        [HttpGet]
+
+        public async Task<IActionResult> GetRoot()
+        {
+            var list = await folderService.GetAll();
+            return Json(list.FirstOrDefault(x => x.ParentId == null));
+        }
         [HttpPut]
         public async Task<IActionResult> SetHierarchy([FromBody] List<FolderDTO> list)
         {
-            await folderService.RemoveAsync();
-            await folderService.AddRangeAsync(list);
-            return Ok();
+            //List<FolderDTO> list = JsonConvert.DeserializeObject<List<FolderDTO>>(json);
+            if (list.FirstOrDefault(x => x.ParentId == null) != null)
+            {
+                await folderService.RemoveAsync();
+                await folderService.AddRangeAsync(list);
+                return Ok();
+            }
+            else
+            {
+                return BadRequest(StatusCodes.Status406NotAcceptable);
+            }
+
+     
         }
     }
 }

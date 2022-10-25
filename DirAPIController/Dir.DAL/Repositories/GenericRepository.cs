@@ -59,7 +59,15 @@ namespace Dir.DAL.Repositories
 
         public async Task AddRangeAsync(IEnumerable<T> entiies)
         {
+            try
+            {
+
             await table.AddRangeAsync(entiies);
+            }
+                catch(Exception e)
+            {
+
+            }
         }
     }
 }

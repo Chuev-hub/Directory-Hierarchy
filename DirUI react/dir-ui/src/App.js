@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React from "react";
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
+import Directory from "./Components/Directory";
+import Home from "./Components/Home";
+import Manage from "./Components/Manage";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    
+      <Router>
+      <NavBar></NavBar>
+         <div className="App">
+         <Switch>
+           <Route exact path="/" component={Home}/>
+           <Route   path="/dir/:id" component={Directory}/>
+           <Route   path="/manage" component={Manage}/>
+           <Route render={()=><div>Page not found</div>} />
+          </Switch>
+          </div>
+      </Router>
+      </>
   );
 }
 

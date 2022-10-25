@@ -49,6 +49,7 @@ namespace Dir.BLL.Services
         public async Task AddRangeAsync(IEnumerable<T> entities)
         {
             var list = Mapper.Map<IEnumerable<T>, IEnumerable<T1>>(entities);
+
             await Repository.AddRangeAsync(list);
             await Repository.SaveChanges();
         }
