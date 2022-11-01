@@ -16,7 +16,7 @@ function App() {
          <div className="App">
          <Switch>
            <Route exact path="/" component={Home}/>
-           <Route   path="/dir/:id"
+           <Route   path="/dir/*"
            
            render={props => {
             

@@ -33,7 +33,7 @@ class Home extends React.Component {
             color: "white",
             "text-decoration": "none",
 
-          }} to={"/dir/" + this.state.root.id}>
+          }} to={"/dir/" + this.state.root.name}>
               <div>
                 <img src={Image} style={{marginLeft:"35px"}} />
               </div>

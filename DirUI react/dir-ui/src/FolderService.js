@@ -22,11 +22,21 @@ export  class FolderService{
         let data = await response.json()
         return data
      }
-    async GetChildren(id){
+     async GetChildren(id){
         let response = await fetch(this.baseUrl+'GetChildren'  + '?id='+id )
         let data = await response.json()
         return data
     }
+    async GetChildrenByPath(path){
+        let response = await fetch(this.baseUrl+'GetChildrenByPath'  + '?path='+path )
+        let data = await response.json()
+        return data
+    }
+    async  GetByPath(path){
+        let response = await fetch(this.baseUrl+'GetByPath'+'?path='+path )
+        let data = await response.json()
+        return data
+     }
      async SetHierarchy(json){
         let response = await fetch(this.baseUrl+'SetHierarchy' ,{
             method:"PUT",

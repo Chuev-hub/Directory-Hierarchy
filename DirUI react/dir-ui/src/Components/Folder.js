@@ -20,7 +20,7 @@ class Folder extends React.Component {
             color: "white",
             "textDecoration": "none",
 
-          }} to={"/dir/"+this.props.id }>
+          }} to={"/dir/"+this.props.path }>
               <div>
                 <img src={Image} style={{marginLeft:"35px"}} />
               </div>

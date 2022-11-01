@@ -7,45 +7,45 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGoaZ/8HRAU+zVtFMVy2QqAAAAAACAAAAAAAQZgAAAAEAACAAAABmFfsFJXd/RWuX2cj4vGbHjpf9rGJIFfv2HGNDPzZOLAAAAAAOgAAAAAIAACAAAAD5491w2FkQ/+Wz0uzniNkt/h44y4tHOTdSJT27qXRDJyAAAADtMRv6FjxqkkVfhg1xh0yaU5bJntIedbpZ2lNSzX+s0UAAAACMphMvlY6up2KwSJeL9XdXqcTrZ5OYKRUoPBawfLDovaxE2DEwoaHeio+WUBKjhLPRZRUJX1B4qvaD0Ud8qfS7</EncryptedPassword>
     <_PublishTargetUrl>ftp://Directory-Hierarchy.somee.com/www.Directory-Hierarchy.somee.com</_PublishTargetUrl>
-    <History>True|2022-10-25T17:37:32.2541186Z;True|2022-10-25T20:34:26.3334820+03:00;</History>
+    <History>True|2022-11-01T20:00:08.1832508Z;True|2022-10-25T20:37:32.2541186+03:00;True|2022-10-25T20:34:26.3334820+03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>10/24/2022 19:41:10</publishTime>
+      <publishTime>11/01/2022 21:36:11</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>10/25/2022 20:36:47</publishTime>
+      <publishTime>11/01/2022 22:58:55</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>09/30/2022 12:45:38</publishTime>
     </File>
     <File Include="Dir.BLL.dll">
-      <publishTime>10/25/2022 20:31:51</publishTime>
+      <publishTime>11/01/2022 22:59:14</publishTime>
     </File>
     <File Include="Dir.BLL.pdb">
-      <publishTime>10/25/2022 20:31:51</publishTime>
+      <publishTime>11/01/2022 22:59:14</publishTime>
     </File>
     <File Include="Dir.DAL.dll">
-      <publishTime>10/25/2022 20:31:51</publishTime>
+      <publishTime>11/01/2022 22:59:14</publishTime>
     </File>
     <File Include="Dir.DAL.pdb">
-      <publishTime>10/25/2022 20:31:51</publishTime>
+      <publishTime>11/01/2022 22:59:14</publishTime>
     </File>
     <File Include="DirAPIController.deps.json">
-      <publishTime>10/25/2022 20:37:03</publishTime>
+      <publishTime>11/01/2022 22:59:15</publishTime>
     </File>
     <File Include="DirAPIController.dll">
-      <publishTime>10/25/2022 20:37:03</publishTime>
+      <publishTime>11/01/2022 22:59:25</publishTime>
     </File>
     <File Include="DirAPIController.exe">
-      <publishTime>10/25/2022 20:37:03</publishTime>
+      <publishTime>11/01/2022 22:59:25</publishTime>
     </File>
     <File Include="DirAPIController.pdb">
-      <publishTime>10/25/2022 20:37:03</publishTime>
+      <publishTime>11/01/2022 22:59:25</publishTime>
     </File>
     <File Include="DirAPIController.runtimeconfig.json">
-      <publishTime>10/25/2022 20:31:53</publishTime>
+      <publishTime>11/01/2022 22:59:15</publishTime>
     </File>
     <File Include="Microsoft.Data.SqlClient.dll">
       <publishTime>09/21/2021 02:59:32</publishTime>
@@ -165,7 +165,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/23/2021 02:49:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>10/25/2022 20:37:04</publishTime>
+      <publishTime>11/01/2022 22:59:26</publishTime>
     </File>
   </ItemGroup>
 </Project>
